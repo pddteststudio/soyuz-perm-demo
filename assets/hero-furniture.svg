@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 760" width="1200" height="760" role="img"><defs>
+<linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9e2d7"/><stop offset="1" stop-color="#c7c3b9"/></linearGradient>
+<linearGradient id="wall2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0e9dc"/><stop offset="1" stop-color="#c2bcb0"/></linearGradient>
+<linearGradient id="floor" x1="0" x2="1" y1="0" y2=".75"><stop stop-color="#b4a18c"/><stop offset="1" stop-color="#756957"/></linearGradient>
+<linearGradient id="oak" x1="0" x2="1" y1="0" y2="0"><stop stop-color="#9e7758"/><stop offset=".5" stop-color="#c19772"/><stop offset="1" stop-color="#8f674c"/></linearGradient>
+<linearGradient id="grey" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#8b948e"/><stop offset="1" stop-color="#485957"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#3b4947"/><stop offset="1" stop-color="#1a2424"/></linearGradient>
+<linearGradient id="glass" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#b6d0cd"/><stop offset=".56" stop-color="#dbe9e5"/><stop offset="1" stop-color="#7ca9ab"/></linearGradient>
+<radialGradient id="light"><stop stop-color="#fff9df" stop-opacity=".92"/><stop offset=".42" stop-color="#ffedb7" stop-opacity=".35"/><stop offset="1" stop-color="#ffeaad" stop-opacity="0"/></radialGradient>
+<filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feGaussianBlur stdDeviation="18"/></filter>
+<filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".55" numOctaves="3" stitchTiles="stitch" seed="0"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".08"/></feComponentTransfer></filter>
+</defs><rect width="1200" height="760" fill="#e8e3d8"/>
+ <path d="M0 0 767 0 767 595 0 560Z" fill="url(#wall)"/><path d="M767 0H1200V560L767 595Z" fill="#c9c7bc"/>
+ <path d="M0 560 767 595 1200 560V760H0Z" fill="url(#floor)"/>
+ <path d="M0 566 767 600 1200 565" stroke="#ece6dc" stroke-width="8" fill="none"/>
+ <rect x="62" y="130" width="390" height="330" fill="#faf6ee"/><rect x="77" y="144" width="360" height="303" fill="url(#glass)"/>
+ <path d="M258 144V447M77 300H437" stroke="#f9f7f2" stroke-width="12"/>
+ <path d="M80 425Q160 350 260 413T433 386V448H80Z" fill="#8aa99e" opacity=".6"/>
+ <path d="M60 125h398" stroke="#746a5f" stroke-width="7"/>
+ <path d="M65 136Q110 155 145 136L133 469H58Z" fill="#e3d9ca"/><path d="M455 136Q410 155 385 136L400 469H465Z" fill="#e3d9ca"/>
+ <ellipse cx="875" cy="675" rx="296" ry="44" fill="#3e3d36" filter="url(#shadow)" opacity=".17"/><path d="M540 134 1104 122 1104 614 540 618Z" fill="#a58164"/>
+ <path d="M560 152 1100 145 1100 584 560 592Z" fill="#b59171"/>
+ <path d="M560 152 765 149 765 593 560 594Z" fill="#e2d8ca"/>
+ <path d="M786 149 1100 145V584L786 590Z" fill="#745f4c"/>
+ <path d="M800 162h283v132H800Z" fill="#a57e5e"/>
+ <path d="M800 312h283v133H800Z" fill="#a57e5e"/>
+ <path d="M800 460h283v121H800Z" fill="#a57e5e"/>
+ <path d="M822 171v110M962 166v116M822 320v115M962 317v116" stroke="#d2b18f" stroke-width="3"/>
+ <path d="M581 255h160v22H581Z" fill="#8a6d52"/>
+ <path d="M581 342h160v22H581Z" fill="#8a6d52"/>
+ <path d="M581 435h160v22H581Z" fill="#8a6d52"/>
+ <rect x="572" y="494" width="233" height="32" fill="#d6b79a"/>
+ <path d="M589 525v120M781 525v120" stroke="#584c3f" stroke-width="14"/>
+ <rect x="606" y="434" width="140" height="82" rx="7" fill="#364b4c"/>
+ <rect x="617" y="443" width="118" height="63" fill="#8da7a6"/>
+ <path d="M657 516h50" stroke="#cfcfc6" stroke-width="9"/>
+ <path d="M940 590v76" stroke="#353e3a" stroke-width="16"/><path d="M901 667h77" stroke="#353e3a" stroke-width="10"/>
+ <path d="M897 591q44-50 88 0v48h-88Z" fill="#5d716a"/>
+ <path d="M905 645h70" stroke="#354b42" stroke-width="15"/><rect width="1200" height="760" fill="#ffffff" filter="url(#grain)" opacity=".22" pointer-events="none"/></svg>
